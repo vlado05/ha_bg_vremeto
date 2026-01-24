@@ -1,0 +1,11 @@
+{
+  "domain": "bg_vremeto",
+  "name": "BG Vremeto",
+  "version": "0.2.0",
+  "documentation": "https://github.com/your/repo",
+  "config_flow": true,
+  "dependencies": [],
+  "codeowners": [],
+  "requirements": ["beautifulsoup4==4.12.3"],
+  "iot_class": "cloud_polling"
+}

@@ -1,0 +1,29 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "BG Vremeto",
+        "description": "Set up weather data from dalivali.bg or sinoptik.bg.",
+        "data": {
+          "provider": "Provider",
+          "location": "Location (ID for DaliVali, slug for Sinoptik)",
+          "name": "Name (optional)",
+          "scan_interval": "Update interval (seconds)"
+        }
+      }
+    },
+    "error": {
+      "invalid_location": "Invalid location for the selected provider."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "BG Vremeto Options",
+        "data": {
+          "scan_interval": "Update interval (seconds)"
+        }
+      }
+    }
+  }
+}
